@@ -1,4 +1,5 @@
 import { configure } from "deso-protocol";
+import { identity } from '@deso-core/identity';
 import { useContext } from "react";
 import { DeSoIdentityContext } from "react-deso-protocol";
 import { Outlet } from "react-router-dom";
